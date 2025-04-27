@@ -20,7 +20,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-         pip install deep-translator requests beautifulsoup4 googletrans==4.0.0-rc1
+         pip install deep-translator selenium requests beautifulsoup4 googletrans==4.0.0-rc1
 
       - name: Run the script
         run: python daily_menus.py
